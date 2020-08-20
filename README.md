@@ -11,8 +11,8 @@ The following is a 3D test structure consisting of two dielectric layers. Each l
 
 The adjoint code is tested by sweeping the thickness of one of the dielectric layers at some random pixel point, and computing and comparing both the adjoint and finite-difference gradients. Note that in this example, I used a point current at some point above the dielectric and then computed the integrated field intensity |E|^2 at a plane beneath the dielectric. 
 
-![alt text](https://github.com/zlin-opt/meep-adjoint-3d/blob/master/adj_diff.png?raw=true)
+![alt text](https://github.com/zlin-opt/meep-adjoint-3d/blob/master/adj-diff.png?raw=true)
 
 The error in percentage between the adjoint and finite-difference calculations.
 
-![alt text](https://github.com/zlin-opt/meep-adjoint-3d/blob/master/adj_diff-err.png?raw=true)
+![alt text](https://github.com/zlin-opt/meep-adjoint-3d/blob/master/adj-diff-err.png?raw=true)
